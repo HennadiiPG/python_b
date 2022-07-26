@@ -1,8 +1,6 @@
 
-integer = input("Привет, меня зовут Гена!\nА ты кто?")
-var = ("Добро пожаловать" + integer)
-
-print(var)
+str_1 = input("Привет, меня зовут Гена!\nА ты кто?")
+print("Добро пожаловать" + str_1)
 
 integer = input("Загадай число:")
 var_1 = int(integer)
