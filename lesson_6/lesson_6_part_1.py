@@ -1,9 +1,8 @@
-
 while True:
     text = input("Введите два слова:")
     word_count = len(text.split())
-    word_count != 2
-    text = input("Введите два слова:")
+    if word_count != 2:
+        text = input("Введите два слова:")
 
     first_word = text[:text.find(' ')]
     second_word = text[text.find(' ') + 1:]
