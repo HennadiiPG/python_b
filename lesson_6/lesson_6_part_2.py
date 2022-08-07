@@ -1,13 +1,11 @@
-while True:
-    string = input("Введите строку: ") #строка
-    char = input("Введите символ: ") #символ
-    if string.find(char) == -1:
-        print("Данного символа нет в строке:")
-        break
-    elif
-    n = string.find(char)
-    len(string) #Длина строки
-    print(len(string))
+string = input("Введите строку: ")
+char = input("Введите символ: ")
+start = -1
+count = 0
 
-    string.find(char, n)
-    print(string.find(char, n))
+while True:
+    start = string.find(char,  start + 1)
+    if start == -1:
+        break
+    count += 1
+print("Количество символов -",  char,  "- в строке =", count)
