@@ -6,4 +6,4 @@ for i in range(len(lst) - 1, k, -1):
     lst[i] = lst[i-1]
 lst[k] = с
 
-print[str(i) for i in lst]
+print([str(i) for i in lst])
