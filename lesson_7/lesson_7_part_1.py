@@ -4,4 +4,4 @@ for n in range(index, len(lst) - 1):
     lst[n] = lst[n + 1]
     #print(lst)
 lst.pop()
-print[str(n) for n in lst]
+print([str(n) for n in lst])
