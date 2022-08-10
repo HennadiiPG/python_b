@@ -1,7 +1,6 @@
-lst = list(input("Введите список из чисел: "))
-index = int(input("Введите индекс элемента из списка выше: "))
-for n in range(index, len(lst) - 1):
-    lst[n] = lst[n + 1]
-    #print(lst)
+lst = [int(s) for s in input("Введите список из чисел: ").split()]
+k = int(input("Введите индекс элемента из списка выше: "))
+for i in range(k + 1, len(lst)):
+    lst[i - 1] = lst[i]
 lst.pop()
-print(lst)
+print(' '.join([str(i) for i in lst]))
