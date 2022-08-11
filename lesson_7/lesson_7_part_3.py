@@ -3,8 +3,13 @@ lst_1 = input("Введите ещё один список из чисел: ").s
 lst_2 = []
 for i in lst:
     if i not in lst_1:
-        lst_2.append(i)
+         if i not in lst_2:
+            lst_2.append(i)
+            #print(lst_2)
+
 for i in lst_1:
     if i not in lst:
-        lst_2.append(i)
+        if i not in lst_2:
+            lst_2.append(i)
+            #print(lst_2)
 print("Количество уникальных чисел в первом и втором списке = ", len(lst_2))
