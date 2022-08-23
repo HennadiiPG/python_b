@@ -1,12 +1,12 @@
 def func(x, y):
-    summ = False
+    summa = False
     for i in range(1, x + 1):
         for n in range(1, x + 1):
             if i + n == y:
-                summ = True
+                summa = True
                 print(i, n)
             break
-    return summ
+    return summa
 
 
 print(func(10, 21))
