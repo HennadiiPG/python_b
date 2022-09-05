@@ -2,7 +2,7 @@ from random import randint
 
 m = int(input('Введите значение M: '))
 n = int(input('Введите значение N: '))
-matrix = [[randint(1, 50) for _ in range(m)] for _ in range(m)]
+matrix = [[randint(1, 50) for _ in range(n)] for _ in range(m)]
 for c in matrix:
     k = 0
     for i in c:
