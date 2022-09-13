@@ -6,3 +6,6 @@ while True:
         break
     f.write(s+'\n')
 f.close()
+
+if __name__ == '__main__':
+    pass
